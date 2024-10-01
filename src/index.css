@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: yellow; */
+  padding: 0;
+  margin: 0
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.optionsBg{
+  background-image: url("images/Fon8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('images/Fon8.jpg'), no-repeat; */
+  background-position: center;
+  
+}
+
+.infoBlockBg{
+  background-image: url("images/Fon4.1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('images/Fon4.jpg'); */
+}
+
+.chooseBg{
+  background-image: url("images/Fon5.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(238, 231, 231, 0.705), rgba(0, 0, 0, 0.5)), 
+              url('images/Fon9.jpg');         
+}
